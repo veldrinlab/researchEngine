@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SkyExamples\GradientDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyExamples\ONealDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyExamples\SkyDomeDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyExamples\PreethamDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyExamples\PerezDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudExamples\ComicCloudDemo.cpp">
+      <Filter>CloudExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudExamples\NoiseCloudDemo.cpp">
+      <Filter>CloudExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudExamples\ProceduralTextureFactory.cpp">
+      <Filter>CloudExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SunExamples\GodraysSunDemo.cpp">
+      <Filter>SunExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SunExamples\LensFlareSunDemo.cpp">
+      <Filter>SunExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SunExamples\SimpleSunDemo.cpp">
+      <Filter>SunExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\CommonMath.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FrameBufferObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mesh.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ResearchEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneEntity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\VertexBufferObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudExamples\CloudParticleEmiter.cpp">
+      <Filter>CloudExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudExamples\CloudFactory.cpp">
+      <Filter>CloudExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyExamples\BrunetonDemo.cpp">
+      <Filter>SkyExamples</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassDemo\GrassDemo.cpp">
+      <Filter>GrassDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassDemo\noise.cpp">
+      <Filter>GrassDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassDemo\Vec3.cpp">
+      <Filter>GrassDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanDemo\OceanDemo.cpp">
+      <Filter>OceanDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Ocean.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Program.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanDemo\OceanDemo2.cpp">
+      <Filter>OceanDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanDemo\OceanDemo3.cpp">
+      <Filter>OceanDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6402c81b-f7d2-4fc3-bb50-7354de6b639b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{a5ee4894-f0a6-4c2a-ba2d-732da1ef9c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CloudExamples">
+      <UniqueIdentifier>{79396d3a-3202-4b36-b6f3-ac950b973bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SunExamples">
+      <UniqueIdentifier>{d171e2fa-a680-4bf5-b787-bbe844e091c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkyExamples">
+      <UniqueIdentifier>{996c047f-2d6e-481f-a4b6-c94712bc7825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9acfb3fe-3180-44d6-bf3c-512de13fb81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Gradients">
+      <UniqueIdentifier>{7bee91f8-9973-4966-946f-f498cffc495d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrassDemo">
+      <UniqueIdentifier>{2e05b248-943d-4c9d-bde0-2cce41964fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OceanDemo">
+      <UniqueIdentifier>{da3921b6-9b87-4d3c-bb28-4be02f2b7b28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SkyExamples\GradientDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\ONealDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\SkyDomeDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\PreethamModel.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\PreethamDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\PerezModel.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\PerezDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\ONealModel.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\CloudFactory.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\ComicCloudDemo.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\InterpolationType.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\NoiseCloudDemo.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\NoiseGenerator.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\ProceduralTextureFactory.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SunExamples\GodraysSunDemo.hpp">
+      <Filter>SunExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SunExamples\LensFlareSunDemo.hpp">
+      <Filter>SunExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SunExamples\SimpleSunDemo.hpp">
+      <Filter>SunExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\CommonMath.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Matrix.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Quaternion.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Vector.hpp">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineFramework.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FrameBufferObject.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mesh.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ResearchEngine.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneEntity.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Shader.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\VertexBufferObject.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\StaticNoiseCloud.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\Particle.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\ParticleEmiter.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\NoiseCloudType.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\CloudParticleEmiter.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudExamples\DynamicNoiseCloud.hpp">
+      <Filter>CloudExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyExamples\BrunetonDemo.hpp">
+      <Filter>SkyExamples</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDemo\GrassDemo.hpp">
+      <Filter>GrassDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDemo\noise.h">
+      <Filter>GrassDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassDemo\Vec3.h">
+      <Filter>GrassDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanDemo\OceanDemo.hpp">
+      <Filter>OceanDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\mat4.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ocean.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Program.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\vec4.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanDemo\OceanDemo2.hpp">
+      <Filter>OceanDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanDemo\OceanDemo3.hpp">
+      <Filter>OceanDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\comicCloud.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\comicCloud.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\comicCloudGlow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\comicCloudGlow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\godRays.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\godRays.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\hdr.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\hdr.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\oneil.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\oneil.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\perez.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\perez.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\perezPixel.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\perezPixel.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\preetham.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\preetham.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\realisticCloud.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\realisticCloud.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\skyDome.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\skyDome.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\Gradients\comicBackground.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\comicBackground.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky1.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky1.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky2.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky2.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky3.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky3.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky4.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky4.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky5.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky5.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky6.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky6.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky7.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky7.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky8.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky8.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky9.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky9.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky10.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky10.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky11.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\sky11.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\solidColor.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\solidColor.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\standard.frag">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\Gradients\standard.vert">
+      <Filter>Shaders\Gradients</Filter>
+    </None>
+    <None Include="Shader\atmosphere.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\clouds.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\realisticCloudOverlay.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\realisticCloudOverlay.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\BrunetonSky.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\BrunetonSky.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\BrunetonCloud.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\BrunetonCloud.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
